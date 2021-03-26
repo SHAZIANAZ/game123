@@ -28,14 +28,7 @@ MainActivity extends AppCompatActivity implements View.OnClickListener {
 
         textViewPlayer1 = findViewById(R.id.text_view_p1);
         textViewPlayer2 = findViewById(R.id.text_view_p2);
-        Bundle bundle=getIntent().getExtras();
-        String name=bundle.getString("player1");
 
-        String email=bundle.getString("player2");
-
-        textViewPlayer1.setText(name);
-
-       textViewPlayer2.setText(email);
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -161,8 +154,6 @@ MainActivity extends AppCompatActivity implements View.OnClickListener {
         player1Turn = savedInstanceState.getBoolean("player1Turn");
     }
 
-    public void plyagain(View view) {
-        Intent intent=new Intent(MainActivity.this,Splash_screen.class);
-        startActivity(intent);
-}}
+
+}
     
