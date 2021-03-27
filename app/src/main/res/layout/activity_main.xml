@@ -31,31 +31,14 @@
 
         <Button
             android:id="@+id/button_reset"
-            android:layout_width="wrap_content"
+            android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="14dp"
             android:layout_marginEnd="23dp"
+            android:background="#11BBE6"
             android:text="reset"
-            android:background="#11BBE6"
-            android:textColor="#06188B"
-            android:textSize="15dp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="126dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/button_reset"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="29dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="7dp"
-            android:layout_marginBottom="0dp"
-            android:layout_toStartOf="@+id/button_reset"
-            android:layout_toEndOf="@+id/text_view_p1"
-            android:background="#11BBE6"
-            android:text="restart"
             android:textColor="#06188B"
             android:textSize="15dp" />
 

@@ -162,9 +162,9 @@ MainActivity extends AppCompatActivity implements View.OnClickListener {
         player1Points = savedInstanceState.getInt( "player1Points" );
         player2Points = savedInstanceState.getInt( "player2Points" );
         player1Turn = savedInstanceState.getBoolean( "player1Turn" );
-    }
+    } public void play1(View view) {
+        Intent intent = new Intent( MainActivity.this, Splash_screen.class );
+        startActivity( intent );
 
-
-
-}
+}}
     

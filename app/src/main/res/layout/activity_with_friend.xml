@@ -24,7 +24,7 @@
         android:layout_height="62dp"
         android:layout_marginBottom="80dp"
         android:background="#00C1FF"
-        android:onClick="play"
+
         android:text="play with Friend"
         android:textColor="#041777"
         android:textSize="20sp"
