@@ -21,7 +21,7 @@ public class Play_screen extends AppCompatActivity {
 
 
     } public void play1(View view) {
-        Intent intent = new Intent( Play_screen.this, WithFriend.class );
+        Intent intent = new Intent( Play_screen.this, MainActivity.class );
         startActivity( intent );
 
 

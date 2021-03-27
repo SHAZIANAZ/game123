@@ -14,7 +14,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/board"
+        android:background="@drawable/board_1"
         android:columnCount="3"
         android:rowCount="3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,7 +30,10 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:onClick="dropIn"
-            android:tag="0" />
+            android:tag="0"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView2"
@@ -38,7 +41,10 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:onClick="dropIn"
-            android:tag="1" />
+            android:tag="1"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView3"
@@ -46,7 +52,10 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:onClick="dropIn"
-            android:tag="2" />
+            android:tag="2"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView4"
@@ -55,7 +64,10 @@
             android:layout_margin="10dp"
             android:layout_marginTop="15dp"
             android:onClick="dropIn"
-            android:tag="3" />
+            android:tag="3"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView5"
@@ -64,7 +76,10 @@
             android:layout_margin="10dp"
             android:layout_marginTop="15dp"
             android:onClick="dropIn"
-            android:tag="4" />
+            android:tag="4"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView6"
@@ -73,7 +88,10 @@
             android:layout_margin="10dp"
             android:layout_marginTop="15dp"
             android:onClick="dropIn"
-            android:tag="5" />
+            android:tag="5"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView7"
@@ -82,7 +100,10 @@
             android:layout_margin="10dp"
             android:layout_marginTop="15dp"
             android:onClick="dropIn"
-            android:tag="6" />
+            android:tag="6"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView8"
@@ -91,7 +112,10 @@
             android:layout_margin="10dp"
             android:layout_marginTop="15dp"
             android:onClick="dropIn"
-            android:tag="7" />
+            android:tag="7"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/imageView9"
@@ -100,21 +124,25 @@
             android:layout_margin="10dp"
             android:layout_marginTop="15dp"
             android:onClick="dropIn"
-            android:tag="8" />
+            android:tag="8"
+            android:background="#00C1FF"
+            android:textColor="#041777"
+            android:textSize="20sp"/>
 
     </GridLayout>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="#00C1FF"
         android:onClick="playAgain"
         android:text="Play Again"
+        android:textColor="#041777"
         android:textSize="20sp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -122,12 +150,14 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
+        android:background="#00C1FF"
         android:text="TextView"
-        android:textSize="25sp"
+        android:textColor="#041777"
+        android:textSize="20sp"
+
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -138,6 +168,9 @@
         android:layout_marginStart="51dp"
         android:layout_marginTop="60dp"
         android:text="X"
+        android:background="#00C1FF"
+        android:textColor="#041777"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -148,6 +181,9 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="51dp"
         android:text="O"
+        android:background="#00C1FF"
+        android:textColor="#041777"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 

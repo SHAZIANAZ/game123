@@ -14,13 +14,11 @@ public class WithFriend extends AppCompatActivity {
         setContentView( R.layout.activity_with_friend );
     }
 
-    public void play(View view) {
-        Intent intent = new Intent( WithFriend.this,MainActivity.class );
-        startActivity( intent );
+
 
 
 
     }
 
 
-}
+
