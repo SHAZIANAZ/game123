@@ -249,6 +249,8 @@ public class ComputerGame extends AppCompatActivity {
     }
 
 
-
-
+    public void play1(View view) {
+        Intent intent = new Intent( ComputerGame.this, Splash_screen.class );
+        startActivity( intent );
     }
+}
