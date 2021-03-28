@@ -13,12 +13,13 @@ public class WithFriend extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_with_friend );
     }
+    public void btn(View view) {
+        Intent intent = new Intent( WithFriend.this, Play_screen.class );
+        startActivity( intent );}
 
 
 
-
-
-    }
+   }
 
 
 

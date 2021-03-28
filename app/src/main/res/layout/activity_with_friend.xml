@@ -15,21 +15,23 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195"
+        app:layout_constraintVertical_bias="0.123"
         app:srcCompat="@drawable/logo_ttc" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="309dp"
         android:layout_height="62dp"
-        android:layout_marginBottom="80dp"
-        android:background="#00C1FF"
-
-        android:text="play with Friend"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="btn"
+        android:layout_marginBottom="76dp"
+        android:background="#08B3EB"
+        android:text="play"
         android:textColor="#041777"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintHorizontal_bias="0.621"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

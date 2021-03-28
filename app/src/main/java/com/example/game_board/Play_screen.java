@@ -19,11 +19,13 @@ public class Play_screen extends AppCompatActivity {
         startActivity( intent );
 
 
+    }
 
-    } public void play1(View view) {
+    public void play1(View view) {
         Intent intent = new Intent( Play_screen.this, MainActivity.class );
         startActivity( intent );
 
 
+    }
 
-    }}
+}
